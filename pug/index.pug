@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet", href="css/style.css")
+        title title
+        script(src="node_modules/jquery/dist/jquery.min.js")
+        script(src="js/java.js")
+    body
+        header.header(class="d-flex justify-content-center align-items-center")
+            img(src="img/wawe/wawe1.png", alt="" class="w-100 header_wawe1")
+            img(src="img/wawe/wawe2.png", alt="" class="w-100 header_wawe2")
+
+            .header_container.container
+                .nav(class="d-flex justify-content-between p-3 ")
+                    a(href="" class="text-white font-weight-bold").nav_title FUN WEATHER.
+                    ul.nav(class="link justify-content-between")
+                        li.nav-item
+                            a(href="#" class="text-white") Home
+                        li.nav-item
+                            a(href="" class="text-white") Features
+                        li.nav-item
+                            a(href="" class="text-white") Reviews
+                        li.nav-item
+                            a(href="" class="text-white") Download
+                    a(href="").icon(class="")
+                        img(src="img/headerIcon/fb.png", alt="" class="pr-4")
+                        img(src="img/headerIcon/ist.png", alt="" class="pr-3")
+                        img(src="img/headerIcon/tw.png", alt="" class="p-1")
+                    
+
+                .header_content(class="d-flex flex-column flex-md-row justify-content-center align-items-center p-5")
+                    .right_cont(class="pr-5 mr-5")
+                        .header__title(class="text-white") Get the most fun weather app
+                        p.header_text(class="text-white pb-3 pt-3")  Simple, nice and user-friendly application of the weather. Only useful information
+                        .button
+                            .btn.btn_color.font-weight-bold Download
+                            .btn.btn_color.font-weight-bold Features
+                    .left_cont(class="p-5 ml-3 font-weight-bolder ")
+                        img.header__phone(src="img/headerPhone/phoneMine.png", alt="")
+                        .first(class="circle circle1") SUNNY
+                        .second(class="circle circle2") LONDON
+                        .third(class="circle circle1") RIO
+                        .fourth(class="circle circle2") 9
+
+        wrapper.wrapper
+            .wrapper__container
+                .wrapper__title(class="container")
+                    h2.text-primary PERFECT FEATURES
+                    p.wrapper__paraf Only necessary
+                .wrapper__aside(class="d-flex d-flex flex-column flex-md-row  container")
+                    .row(class="m-3 aside__item") 
+                        .col(class="d-flex")
+                            img(src="img/wrapper/icon1.png", alt="" class="wrapper__icons")
+                            .block(class="ml-3")
+                                h5 Usability
+                                p.wrapper__paraf Sometimes the simplest things are the hardest to find. So we created a new line for everyday life
+                    .row(class="m-3 aside__item")
+                        .col(class="d-flex")
+                            img(src="img/wrapper/icon2.png", alt="" class="wrapper__icons")
+                            .block(class="ml-3")
+                                h5 Parallax Effect
+                                p.wrapper__paraf Sometimes the simplest things are the hardest to find. So we created a new line for everyday life
+                    .row(class="m-3 aside__item")
+                        .col(class="d-flex")
+                            img(src="img/wrapper/icon3.png", alt="" class="wrapper__icons")
+                            .block(class="ml-3")
+                                h5 Unlimites Colors
+                                p.wrapper__paraf Sometimes the simplest things are the hardest to find. So we created a new line for everyday life
+                .wrapper__title(class="container")
+                    h2.text-primary SIMPLE WIDGETS
+                    p.wrapper__paraf Drag and Drop
+                img.Pictures.w-100(src="img/wrapper/Maincarusel.png")
+                .wrapper__content
+                    .wrapper__title(class="container")
+                        h2.text-primary SCREENSHOTS
+                        p.wrapper__paraf The brightest images
+                    .wrapper__content__box(class="d-flex flex-column flex-md-row justify-content-center container")
+                        .box__left(class="m-4")
+                            .wrapper__circle
+                                img.header__phone(src="img/wrapper/Content/new-york.png", alt="" class="m-4 phone-1")
+                                .circle(class="cloudy1") 15&deg;
+                                .circle(class="cloudy2") Cloudy
+                        .box__right(class="d-flex  justify-content-center align-items-center ml-4")
+                            .wrapper__box(class="d-flex flex-column justify-content-center align-items-start ml-4")
+                                img(src="img/wrapper/Content/cloudy.png", alt="" class="ml-4")
+                                h2.text-primary(class="m-4") SIMPLE WIDGETS
+                                p.box__paraf(class="ml-4") Variable information on the air humidity, the feeling of the weather, and the ability to share this with your friends
+                                .wrapper__backround__text(class="m-4 p-4") 95%  9&deg;  Rainy
+                    .wrapper__content__box(class="d-flex flex-column flex-md-row  justify-content-center container")
+                        .box__right(class="d-flex  justify-content-center align-items-center mr-4")
+                            .wrapper__box(class="d-flex flex-column justify-content-center align-items-start mr-4")
+                                img(src="img/wrapper/Content/sunny.png", alt="" class="ml-4")
+                                h2.text-primary(class="m-4") WHEN THE SUN
+                                p.box__paraf(class="ml-4") Sometimes the simplest things are the hardest to find. So we created a new line for everyday life. Sometimes the simplest things are the 
+                                .wrapper__backround__text(class="m-4 p-4") 95%  9&deg;  Rainy
+                        .box__left(class="m-4 pl-4")
+                            .wrapper__circle
+                                img.header__phone(src="img/wrapper/Content/rio.png", alt="" class="m-4 phone-2")
+                                .circle(class="cloudy1 sunny1") 35&deg;
+                                .circle(class="cloudy2 sunny2") Sunny
+                    .wrapper__content__box(class="d-flex flex-column flex-md-row  justify-content-center container")
+                        .box__left(class="m-4")
+                            .wrapper__circle
+                                img.header__phone(src="img/wrapper/Content/london.png", alt="" class="m-4 phone-3")
+                                .circle(class="cloudy1 rainy1") 15&deg;
+                                .circle(class="cloudy2 rainy2") Cloudy
+                        .box__right(class="d-flex  justify-content-center align-items-center ml-4")
+                            .wrapper__box(class="d-flex flex-column justify-content-center align-items-start ml-4")
+                                img(src="img/wrapper/Content/rainy.png", alt="" class="ml-4")
+                                h2.text-primary(class="m-4") WHEN THE RAIN
+                                p.box__paraf(class="ml-4") Sometimes the simplest things are the hardest to find. So we created a new line for everyday life. Sometimes the simplest things are the 
+                                .wrapper__backround__text(class="m-4 p-4") 95%  9&deg;  Rainy
+                
+                .wrapper__footer
+                    .wrapper__title(class="container")
+                        h2.text-primary WHAT PEOPLE ARE SAYING
+                        p.wrapper__paraf Reviews
+                    .wrapper__footer__content(class="container")
+                        .row
+                            .col-md-6.col-xs-auto
+                                img(src="img/wrapper/quote1.png", alt="")
+                                p.box__paraf(class="ml-4 mt-2") What art offers is space - a certain breathing room for the spirit. 
+                                .wrapper__footer__text(class="ml-4") John Updike
+                                img(src="img/wrapper/quote2.png", alt="" class="wrapper__quoter")
+                            .col-md-6.col-xs-auto
+                                img(src="img/wrapper/quote1.png", alt="")
+                                p.box__paraf(class="ml-4 mt-2") We do not see nature with our eyes, but with our understandings and our hearts.
+                                .wrapper__footer__text(class="ml-4") William Hazlitt
+                                img(src="img/wrapper/quote2.png", alt="" class="wrapper__quoter")
+                        .row
+                            .col-md-6.col-xs-auto
+                                img(src="img/wrapper/quote1.png", alt="")
+                                p.box__paraf(class="ml-4 mt-2") The only courage that matters is the kind that gets you from one moment to the next. 
+                                .wrapper__footer__text(class="ml-4") Mignon McLaughlin
+                                img(src="img/wrapper/quote2.png", alt="" class="wrapper__quoter")
+                            .col-md-6.col-xs-auto
+                                img(src="img/wrapper/quote1.png", alt="")
+                                p.box__paraf(class="ml-4 mt-2") No man has a good enough memory to be a successful liar.  
+                                .wrapper__footer__text(class="ml-4") Abraham Lincoln
+                                img(src="img/wrapper/quote2.png", alt="" class="wrapper__quoter")
+
+                .wrapper__download
+                    .wrapper__download__content(class="d-flex justify-content-center p-5 container  ")
+                        .right_side(class="mt-4 pt-4")(class="container")
+                            h2(class="text-white") HOW DOWNLOAD THE APP
+                            p.download_text(class="text-white pb-3 pt-3")  Just download the app from the store.Simple, nice and user-friendly application of theweather. Only relevant and useful information.
+                            .button
+                                .btn(class="p-0")
+                                    img(src="img/wrapper/ios.png", alt="")
+                                .btn(class="pl-0")
+                                    img(src="img/wrapper/android.png", alt="")
+                        .left_side(class="p-5 pt-2 ml-3")
+                            
+                            img.header__phone(src="img/wrapper/Content/london.png", alt="" class="back_phone1")
+                            img.header__phone(src="img/wrapper/Content/new-york.png", alt="" class="back_phone2")
+                            img.header__phone(src="img/wrapper/Content/rio.png", alt="" class="main_phone")
+        footer.footer
+            .footer__container(class="container")
+                .nav(class="d-flex justify-content-between p-3 container")
+                    .href
+                        a(href="" class="text-white font-weight-bold footer__title_color1").nav_title FUN
+                        a(href="" class="text-white font-weight-bold footer__title_color2").nav_title  WEATHER.
+                    ul.nav(class="link justify-content-between")
+                        li.nav-item
+                            a(href="#" class="text-white-50") Home
+                        li.nav-item
+                            a(href="" class="text-white-50") Features
+                        li.nav-item
+                            a(href="" class="text-white-50") Reviews
+                        li.nav-item
+                            a(href="" class="text-white-50") Download
+                    a(href="").icon(class="")
+                        img(src="img/headerIcon/fb.png", alt="" class="pr-4")
+                        img(src="img/headerIcon/ist.png", alt="" class="pr-3")
+                        img(src="img/headerIcon/tw.png", alt="" class="p-1")
+            hr.container
+            .footer__info.container.d-flex.justify-content-end © 2016 All rights reserved. Weather App Theme by Gravpix

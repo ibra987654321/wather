@@ -1,0 +1,107 @@
+html,body
+    margin: 0
+    padding: 0
+.header
+    position: relative
+    height: 960px
+    max-width: 100%
+    background: #648CFF
+    overflow: hidden
+    clip-path: polygon(50% 0%, 100% 0, 100% 91%, 81% 96%, 61% 98%, 41% 98%, 18% 96%, 0 92%, 0 0)
+.header_wawe1
+    position: absolute
+    bottom: 0
+    left: 0
+    opacity: .8
+    transform: translate3d(0, 0%, 0)
+    animation: spin 4s infinite linear
+
+@keyframes spin 
+  0% 
+    transform: translate3d(0,0%, 0)
+  
+  50% 
+    transform: translate3d(0, 10%, 0)
+  
+  100% 
+    transform: translate3d(0,0%, 0)
+  
+
+.header_wawe2
+    position: absolute
+    bottom: 0
+    left: 0
+    opacity: .5
+    transform: translate3d(0, 0%, 0)
+    animation: spin 4s infinite linear 2s
+.header_container
+    padding-right: 70px
+    padding-left: 70px
+.link
+    width: 340px
+    text-decoration: none
+
+.btn_color
+    color: #fff
+    width: 148px
+    height: 38px
+    background: #4466C9
+.btn_color:hover
+    transition: .5s
+    background: #FC6A42
+    color: #fff
+.right_cont
+    position: relative
+    width: 400px
+    height: 340px
+
+.header__title
+    font-size: 40px
+    font-weight: bold
+
+.header__phone
+    height: 450px
+    width: 210px
+.left_cont
+    position: relative
+.first
+    position: absolute
+    top: 259px
+    left: -55px
+    width: 75px
+    height: 75px
+    color: white 
+    background:  #FC6A42
+
+.second
+    position: absolute
+    top: 229px
+    left: 100%
+    width: 75px
+    height: 75px
+    color: white 
+    background:  #4466C9
+.third
+    position: absolute
+    top: 85%
+    left: 90%
+    width: 45px
+    height: 45px
+    background:  #FCEC64
+    color: #4466C9
+
+.fourth
+    position: absolute
+    top: 90px
+    left: 90%
+    width: 55px
+    height: 55px
+    background:  #FFFFFF
+    color: #648CFF
+.circle
+    border-radius: 50%
+    
+    display: flex
+    justify-content: center
+    align-items: center
+
